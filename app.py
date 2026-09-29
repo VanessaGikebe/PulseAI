@@ -1,3 +1,5 @@
+import utils.transport
+import utils.session
 import streamlit as st
 from utils import get_llama_response, calculate_population_growth, generate_3d_city_model, analyze_sustainability, optimize_traffic_flow
 from ai_layout import generate_city_layout, analyze_layout, suggest_improvements
